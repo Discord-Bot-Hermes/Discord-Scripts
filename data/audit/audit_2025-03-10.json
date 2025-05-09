@@ -1,0 +1,1535 @@
+[
+  {
+    "timestamp": "2025-03-10 12:50:22",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 12:50:29",
+    "endpoint": "/api/attendance",
+    "api_key": "025002",
+    "params": {
+      "status": "start",
+      "api_key": "[REDACTED]",
+      "target_user_id": "234339929159761920",
+      "group_id": "g1"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 12:52:19",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 12:52:22",
+    "endpoint": "/api/attendance",
+    "api_key": "025002",
+    "params": {
+      "status": "start",
+      "api_key": "[REDACTED]",
+      "target_user_id": "234339929159761920",
+      "group_id": "g1"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 12:52:24",
+    "endpoint": "/api/attendance",
+    "api_key": "025002",
+    "params": {
+      "status": "start",
+      "api_key": "[REDACTED]",
+      "target_user_id": "234339929159761920",
+      "group_id": "g1"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 12:52:25",
+    "endpoint": "/api/attendance",
+    "api_key": "025002",
+    "params": {
+      "status": "start",
+      "api_key": "[REDACTED]",
+      "target_user_id": "234339929159761920",
+      "group_id": "g1"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 12:54:01",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 12:54:08",
+    "endpoint": "/api/attendance",
+    "api_key": "025002",
+    "params": {
+      "status": "start",
+      "api_key": "[REDACTED]",
+      "target_user_id": "234339929159761920",
+      "group_id": "g1"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 12:58:04",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 13:00:01",
+    "endpoint": "/api/attendance",
+    "api_key": "025002",
+    "params": {
+      "status": "start",
+      "api_key": "[REDACTED]",
+      "target_user_id": "234339929159761920",
+      "group_id": "g1"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 13:01:53",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 13:01:55",
+    "endpoint": "/api/attendance",
+    "api_key": "025002",
+    "params": {
+      "status": "start",
+      "api_key": "[REDACTED]",
+      "target_user_id": "234339929159761920",
+      "group_id": "g1"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 13:01:57",
+    "endpoint": "/api/attendance",
+    "api_key": "025002",
+    "params": {
+      "status": "start",
+      "api_key": "[REDACTED]",
+      "target_user_id": "234339929159761920",
+      "group_id": "g1"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 13:01:58",
+    "endpoint": "/api/attendance",
+    "api_key": "025002",
+    "params": {
+      "status": "start",
+      "api_key": "[REDACTED]",
+      "target_user_id": "234339929159761920",
+      "group_id": "g1"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 13:01:59",
+    "endpoint": "/api/attendance",
+    "api_key": "025002",
+    "params": {
+      "status": "start",
+      "api_key": "[REDACTED]",
+      "target_user_id": "234339929159761920",
+      "group_id": "g1"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 13:02:01",
+    "endpoint": "/api/attendance",
+    "api_key": "025002",
+    "params": {
+      "status": "stop",
+      "api_key": "[REDACTED]",
+      "group_id": "g1",
+      "target_user_id": "234339929159761920"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 13:05:19",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 13:08:25",
+    "endpoint": "/api/attendance",
+    "api_key": "025002",
+    "params": {
+      "status": "start",
+      "api_key": "[REDACTED]",
+      "target_user_id": "234339929159761920",
+      "group_id": "g1"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 13:08:28",
+    "endpoint": "/api/attendance",
+    "api_key": "025002",
+    "params": {
+      "status": "stop",
+      "api_key": "[REDACTED]",
+      "group_id": "g1",
+      "target_user_id": "234339929159761920"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 13:10:40",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 13:11:05",
+    "endpoint": "/api/tutor-session-feedback",
+    "api_key": "025002",
+    "params": {
+      "group_id": "g1",
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 13:14:20",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 13:14:27",
+    "endpoint": "/api/tutor-session-feedback",
+    "api_key": "025002",
+    "params": {
+      "group_id": "g1",
+      "api_key": "[REDACTED]",
+      "channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 13:14:50",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 13:14:56",
+    "endpoint": "/api/tutor-session-feedback",
+    "api_key": "025002",
+    "params": {
+      "group_id": "g1",
+      "api_key": "[REDACTED]",
+      "channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 13:16:14",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 13:16:21",
+    "endpoint": "/api/tutor-session-feedback",
+    "api_key": "025002",
+    "params": {
+      "group_id": "g1",
+      "api_key": "[REDACTED]",
+      "channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 13:17:00",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 13:17:04",
+    "endpoint": "/api/tutor-session-feedback",
+    "api_key": "025002",
+    "params": {
+      "group_id": "g1",
+      "api_key": "[REDACTED]",
+      "channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 13:17:11",
+    "endpoint": "/api/tutor-session-feedback",
+    "api_key": "025002",
+    "params": {
+      "group_id": "g1",
+      "api_key": "[REDACTED]",
+      "channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 13:18:51",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 13:18:58",
+    "endpoint": "/api/tutor-session-feedback",
+    "api_key": "025002",
+    "params": {
+      "group_id": "g1",
+      "api_key": "[REDACTED]",
+      "channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 13:19:00",
+    "endpoint": "/api/tutor-session-feedback",
+    "api_key": "025002",
+    "params": {
+      "group_id": "g1",
+      "api_key": "[REDACTED]",
+      "channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 13:19:31",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 13:54:55",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 13:55:02",
+    "endpoint": "/api/tutor-session-feedback",
+    "api_key": "025002",
+    "params": {
+      "group_id": "g1",
+      "api_key": "[REDACTED]",
+      "channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 13:57:25",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 13:57:29",
+    "endpoint": "/api/tutor-session-feedback",
+    "api_key": "025002",
+    "params": {
+      "group_id": "g1",
+      "api_key": "[REDACTED]",
+      "channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 13:57:31",
+    "endpoint": "/api/tutor-session-feedback",
+    "api_key": "025002",
+    "params": {
+      "group_id": "g1",
+      "api_key": "[REDACTED]",
+      "channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 13:58:04",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 13:58:10",
+    "endpoint": "/api/tutor-session-feedback",
+    "api_key": "025002",
+    "params": {
+      "group_id": "g1",
+      "api_key": "[REDACTED]",
+      "channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:04:33",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:04:37",
+    "endpoint": "/api/tutor-session-feedback",
+    "api_key": "025002",
+    "params": {
+      "group_id": "g1",
+      "api_key": "[REDACTED]",
+      "channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:04:38",
+    "endpoint": "/api/tutor-session-feedback",
+    "api_key": "025002",
+    "params": {
+      "group_id": "g1",
+      "api_key": "[REDACTED]",
+      "channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:04:39",
+    "endpoint": "/api/tutor-session-feedback",
+    "api_key": "025002",
+    "params": {
+      "group_id": "g1",
+      "api_key": "[REDACTED]",
+      "channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:04:45",
+    "endpoint": "/api/tutor-session-feedback",
+    "api_key": "025002",
+    "params": {
+      "group_id": "g1",
+      "api_key": "[REDACTED]",
+      "channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:04:46",
+    "endpoint": "/api/tutor-session-feedback",
+    "api_key": "025002",
+    "params": {
+      "group_id": "g1",
+      "api_key": "[REDACTED]",
+      "channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:10:04",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:10:11",
+    "endpoint": "/api/tutor-session-feedback",
+    "api_key": "025002",
+    "params": {
+      "group_id": "g1",
+      "api_key": "[REDACTED]",
+      "channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:10:44",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:10:48",
+    "endpoint": "/api/tutor-session-feedback",
+    "api_key": "025002",
+    "params": {
+      "group_id": "g1",
+      "api_key": "[REDACTED]",
+      "channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:10:49",
+    "endpoint": "/api/tutor-session-feedback",
+    "api_key": "025002",
+    "params": {
+      "group_id": "g1",
+      "api_key": "[REDACTED]",
+      "channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:10:50",
+    "endpoint": "/api/tutor-session-feedback",
+    "api_key": "025002",
+    "params": {
+      "group_id": "g1",
+      "api_key": "[REDACTED]",
+      "channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:14:39",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:14:46",
+    "endpoint": "/api/tutor-session-feedback",
+    "api_key": "025002",
+    "params": {
+      "group_id": "g1",
+      "api_key": "[REDACTED]",
+      "target_dm_channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:15:22",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:15:25",
+    "endpoint": "/api/tutor-session-feedback",
+    "api_key": "025002",
+    "params": {
+      "group_id": "g1",
+      "api_key": "[REDACTED]",
+      "target_dm_channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:15:26",
+    "endpoint": "/api/tutor-session-feedback",
+    "api_key": "025002",
+    "params": {
+      "group_id": "g1",
+      "api_key": "[REDACTED]",
+      "target_dm_channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:15:27",
+    "endpoint": "/api/tutor-session-feedback",
+    "api_key": "025002",
+    "params": {
+      "group_id": "g1",
+      "api_key": "[REDACTED]",
+      "target_dm_channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:16:29",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:16:33",
+    "endpoint": "/api/tutor-session-feedback",
+    "api_key": "025002",
+    "params": {
+      "group_id": "g1",
+      "api_key": "[REDACTED]",
+      "target_dm_channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:16:34",
+    "endpoint": "/api/tutor-session-feedback",
+    "api_key": "025002",
+    "params": {
+      "group_id": "g1",
+      "api_key": "[REDACTED]",
+      "target_dm_channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:19:12",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:19:20",
+    "endpoint": "/api/tutor-session-feedback",
+    "api_key": "025002",
+    "params": {
+      "group_id": "g1",
+      "api_key": "[REDACTED]",
+      "target_dm_channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:23:44",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:24:07",
+    "endpoint": "/api/tutor-session-feedback",
+    "api_key": "025002",
+    "params": {
+      "group_id": "g1",
+      "api_key": "[REDACTED]",
+      "target_dm_channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:24:15",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:27:23",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:34:07",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:34:15",
+    "endpoint": "/api/tutor-session-feedback",
+    "api_key": "025002",
+    "params": {
+      "group_id": "g1",
+      "api_key": "[REDACTED]",
+      "target_dm_channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:35:32",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:35:45",
+    "endpoint": "/api/tutor-session-feedback",
+    "api_key": "025002",
+    "params": {
+      "group_id": "g1",
+      "api_key": "[REDACTED]",
+      "channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:36:35",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:36:47",
+    "endpoint": "/api/tutor-session-feedback",
+    "api_key": "025002",
+    "params": {
+      "group_id": "g1",
+      "api_key": "[REDACTED]",
+      "channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:38:11",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 14:40:20",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 15:22:27",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 15:32:48",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 15:33:41",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 15:37:49",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 15:39:04",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 15:39:46",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 15:42:12",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 15:45:12",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 15:45:19",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 15:45:35",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 15:47:15",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 15:47:26",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 15:48:33",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 15:48:41",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 15:50:03",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 15:50:10",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 15:52:31",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:16:59",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:17:14",
+    "endpoint": "/api/give-member-role",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]",
+      "role_id": "1348675353626808340",
+      "user_id": "234339929159761920"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:18:43",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:18:51",
+    "endpoint": "/api/give-member-role",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]",
+      "role_id": "1348675353626808340",
+      "user_id": "234339929159761920"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:19:40",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:19:47",
+    "endpoint": "/api/give-member-role",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]",
+      "role_id": "1348675353626808340",
+      "user_id": "234339929159761920"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:20:26",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:20:33",
+    "endpoint": "/api/give-member-role",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]",
+      "role_id": "1348675353626808340",
+      "user_id": "234339929159761920"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:21:45",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:21:50",
+    "endpoint": "/api/give-member-role",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]",
+      "role_id": "1348675353626808340",
+      "user_id": "234339929159761920"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:21:53",
+    "endpoint": "/api/give-member-role",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]",
+      "role_id": "1348675353626808340",
+      "user_id": "234339929159761920"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:22:32",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:22:38",
+    "endpoint": "/api/give-member-role",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]",
+      "role_id": "1348675353626808340",
+      "user_id": "234339929159761920"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:23:01",
+    "endpoint": "/api/give-member-role",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]",
+      "role_id": "1348675353626808340",
+      "user_id": "234339929159761920"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:23:28",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:23:34",
+    "endpoint": "/api/give-member-role",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]",
+      "role_id": "1348675353626808340",
+      "user_id": "234339929159761920"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:24:18",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:24:23",
+    "endpoint": "/api/give-member-role",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]",
+      "role_id": "1348675353626808340",
+      "user_id": "234339929159761920"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:24:27",
+    "endpoint": "/api/give-member-role",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]",
+      "role_id": "1348675353626808340",
+      "user_id": "234339929159761920"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:25:14",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:25:19",
+    "endpoint": "/api/give-member-role",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]",
+      "role_id": "1348675353626808340",
+      "user_id": "234339929159761920"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:25:21",
+    "endpoint": "/api/give-member-role",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]",
+      "role_id": "1348675353626808340",
+      "user_id": "234339929159761920"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:27:39",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:27:47",
+    "endpoint": "/api/give-member-role",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]",
+      "role_id": "1348675353626808340",
+      "user_id": "234339929159761920"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:28:01",
+    "endpoint": "/api/give-member-role",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]",
+      "role_id": "1348675353626808340",
+      "user_id": "234339929159761920"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:52:29",
+    "endpoint": "/api/member-count",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:52:38",
+    "endpoint": "/api/member-count",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:53:04",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:53:11",
+    "endpoint": "/api/member-count",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:53:14",
+    "endpoint": "/api/member-count",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:53:47",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:53:51",
+    "endpoint": "/api/member-count",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:53:53",
+    "endpoint": "/api/member-count",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:57:44",
+    "endpoint": "/api/roles",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:57:47",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:57:51",
+    "endpoint": "/api/roles",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:57:52",
+    "endpoint": "/api/roles",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:58:16",
+    "endpoint": "/api/channels",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:58:37",
+    "endpoint": "/api/members",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:58:54",
+    "endpoint": "/api/server-info",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:59:13",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 16:59:19",
+    "endpoint": "/api/server-info",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 17:00:51",
+    "endpoint": "/api/create-complex-survey",
+    "api_key": "unknown",
+    "params": {
+      "api_id": "025002",
+      "message": "Test",
+      "main_topic": "Misho",
+      "channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 17:01:09",
+    "endpoint": "/api/create-complex-survey",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]",
+      "message": "Test",
+      "main_topic": "Misho",
+      "channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 17:01:21",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 17:01:24",
+    "endpoint": "/api/create-complex-survey",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]",
+      "message": "Test",
+      "main_topic": "Misho",
+      "channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 17:01:25",
+    "endpoint": "/api/create-complex-survey",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]",
+      "message": "Test",
+      "main_topic": "Misho",
+      "channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 17:01:26",
+    "endpoint": "/api/create-complex-survey",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]",
+      "message": "Test",
+      "main_topic": "Misho",
+      "channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 17:01:26",
+    "endpoint": "/api/create-complex-survey",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]",
+      "message": "Test",
+      "main_topic": "Misho",
+      "channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 17:01:27",
+    "endpoint": "/api/create-complex-survey",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]",
+      "message": "Test",
+      "main_topic": "Misho",
+      "channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 17:01:54",
+    "endpoint": "/api/create-simple-survey",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]",
+      "message": "Test",
+      "main_topic": "Misho",
+      "channel_id": "1315956638892425248"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 17:02:47",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 17:02:55",
+    "endpoint": "/api/create-simple-survey",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]",
+      "message": "Test",
+      "main_topic": "Misho",
+      "channel_id": "1315956638892425248",
+      "button_type": "Score"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 17:28:38",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 17:28:55",
+    "endpoint": "/api/create-complex-survey",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]",
+      "message": "Test",
+      "main_topic": "Misho",
+      "channel_id": "1315956638892425248",
+      "question_1": "Test?",
+      "question_2": "Test2",
+      "button_1": "ScoRe",
+      "button_2": "difficulty"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 17:29:34",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 17:29:39",
+    "endpoint": "/api/start-bot",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]"
+    },
+    "ip_address": "127.0.0.1"
+  },
+  {
+    "timestamp": "2025-03-10 17:29:41",
+    "endpoint": "/api/create-complex-survey",
+    "api_key": "025002",
+    "params": {
+      "api_key": "[REDACTED]",
+      "message": "Test",
+      "main_topic": "Misho",
+      "channel_id": "1315956638892425248",
+      "question_1": "Test?",
+      "question_2": "Test2",
+      "button_1": "ScoRe",
+      "button_2": "difficulty"
+    },
+    "ip_address": "127.0.0.1"
+  }
+]

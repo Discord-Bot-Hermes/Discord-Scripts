@@ -1,0 +1,44 @@
+{
+    "bot": {
+        "token": "MTMxNTY2MzkzNTYwODk3OTQ2OA.GdAnB8.RaDXsAr6S11RUYBqimCXJfCEof1v71Uftr_rXc",
+        "dev_token": "MTM3MDM4MDgyNTAwNjMwOTQ0Ng.G0o_2J.MG0mbHcQ9zm1HsXFQ-C-YJpTd3-3iTvgOvb9FA",
+        "development_mode": true
+    },
+    "groups": [
+        "G1",
+        "Master",
+        "Group 3",
+        "Group 4",
+        "Group 5",
+        "gRouP 1"
+    ],
+    "access_roles": [
+        {
+            "id": "1370384977187049594",
+            "name": "Admin",
+            "color": "#e91e63",
+            "position": 1,
+            "mentionable": false,
+            "permissions": "0"
+        },
+        {
+            "id": "1370382824590278749",
+            "name": "Bot_new",
+            "color": "#000000",
+            "position": 2,
+            "mentionable": false,
+            "permissions": "8"
+        },
+        {
+            "id": "1370378510908264561",
+            "name": "new role",
+            "color": "#000000",
+            "position": 3,
+            "mentionable": false,
+            "permissions": "0"
+        }
+    ],
+    "api_keys": {
+        "025002": "Master-M"
+    }
+}
