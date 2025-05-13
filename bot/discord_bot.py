@@ -14,6 +14,8 @@ import sys
 import logging
 from pathlib import Path
 
+from bot import bot_data
+
 # Add the project root to Python path to make imports work correctly
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
@@ -117,40 +119,7 @@ def _verify_author_roles(user: discord.User | discord.Member) -> bool:
     Args:
         user :class:`User` | :class:`Member`: The user whose roles are to be verified.
     """
-    # Get access roles from settings
-    access_roles = SETTINGS["allowed_roles"]
-    
-    # Extract role IDs from the access_roles list
-    allowed_role_ids = []
-    for role_data in access_roles:
-        try:
-            # Each role_data is a dictionary with complete role information
-            role_id = int(role_data["id"])
-            allowed_role_ids.append(role_id)
-        except (ValueError, TypeError, KeyError) as e:
-            logger.warning(f"Warning: Invalid role data in settings: {e}")
-    
-    # Print all role IDs that the user has for debugging
-    # print(f"User roles: {[(role.name, role.id) for role in user.roles]}")
     for role in user.roles:
-        if role.id in allowed_role_ids:
+        if role.name == "Admin":
             return True
     return False
-
-@bot.event
-async def on_ready():
-    """Called when the bot is ready."""
-    try:
-        # Load role data from settings
-        if 'roles' in SETTINGS:
-            for role_data in SETTINGS['roles']:
-                try:
-                    role_id = int(role_data['id'])
-                    role_name = role_data['name']
-                    bot_data.ROLES[role_id] = role_name
-                except (ValueError, KeyError) as e:
-                    logger.warning(f"Warning: Invalid role data in settings: {e}")
-    except Exception as e:
-        logger.error(f"Error loading role data: {e}")
-
-    logger.info(f"Bot is ready! Logged in as {bot.user.name}")

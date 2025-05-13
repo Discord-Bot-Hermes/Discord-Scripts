@@ -9,6 +9,7 @@ import discord
 import logging
 import REST.utils.bot_context as bc
 import importlib, sys as _sys
+from pathlib import Path
 
 from discord.enums import ButtonStyle
 from shared import SurveyEntry
@@ -69,7 +70,11 @@ class TutorSessionView(discord.ui.View):
         self.mid_feedback_percentage = 0
         self.bad_feedback_percentage = 0
         current_time = datetime.now().strftime("%Y-%m-%d_%H-%M")
-        self.path = f"../data/tutor_session_feedback/{group_id}_{current_time}.csv"
+        # Resolve absolute path for tutor session feedback
+        project_root = Path(__file__).resolve().parents[2]
+        feedback_dir = project_root / 'data' / 'tutor_session_feedback'
+        feedback_dir.mkdir(exist_ok=True, parents=True)
+        self.path = str(feedback_dir / f"{group_id}_{current_time}.csv")
 
     @discord.ui.button(label="Good", style=ButtonStyle.primary)
     async def good_callback(
@@ -399,23 +404,25 @@ class DifficultyView(discord.ui.View):
         """Save all survey entries when the view times out."""
         self.disable_all_items()
         
-        # Only save entries if there are any and this is the final view
-        if self.all_survey_entries and (self.views_queue is None or not self.views_queue):
-            # Determine survey type (CS for complex, SS for simple)
-            survey_type = "CS" if hasattr(self, 'from_complex') and self.from_complex else "SS"
-            
-            # Generate filename with timestamp
-            current_time = datetime.now().strftime("%Y-%m-%d_%H-%M")
-            path = f"../data/exercise_feedback/{survey_type}_{self.topic}_{current_time}.csv"
-            
-            # Save all collected entries
-            entry_count = len(self.all_survey_entries)
-            for entry in self.all_survey_entries:
-                save_survey_entry_to_csv(path=path, entry=entry)
-            
-            # Log survey completion information
-            logger.info(f"DEBUG: Saved {entry_count} responses for {survey_type} survey on topic '{self.topic}' to {path}")
-                
+        # Determine survey type (CS for complex, SS for simple)
+        survey_type = "CS" if hasattr(self, 'from_complex') and self.from_complex else "SS"
+        
+        # Generate filename with timestamp
+        current_time = datetime.now().strftime("%Y-%m-%d_%H-%M")
+        # Resolve absolute path for exercise feedback
+        project_root = Path(__file__).resolve().parents[2]
+        survey_dir = project_root / 'data' / 'exercise_feedback'
+        survey_dir.mkdir(exist_ok=True, parents=True)
+        path = str(survey_dir / f"{survey_type}_{self.topic}_{current_time}.csv")
+        
+        # Save all collected entries
+        entry_count = len(self.all_survey_entries)
+        for entry in self.all_survey_entries:
+            save_survey_entry_to_csv(path=path, entry=entry)
+        
+        # Log survey completion information
+        logger.info(f"DEBUG: Saved {entry_count} responses for {survey_type} survey on topic '{self.topic}' to {path}")
+        
         return await super().on_timeout()
 
 
@@ -522,7 +529,11 @@ class ScoreView(discord.ui.View):
             
             # Generate filename with timestamp
             current_time = datetime.now().strftime("%Y-%m-%d_%H-%M")
-            path = f"../data/exercise_feedback/{survey_type}_{self.topic}_{current_time}.csv"
+            # Resolve absolute path for exercise feedback
+            project_root = Path(__file__).resolve().parents[2]
+            survey_dir = project_root / 'data' / 'exercise_feedback'
+            survey_dir.mkdir(exist_ok=True, parents=True)
+            path = str(survey_dir / f"{survey_type}_{self.topic}_{current_time}.csv")
             
             # Save all collected entries
             entry_count = len(self.all_survey_entries)
