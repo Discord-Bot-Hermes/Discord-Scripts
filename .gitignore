@@ -162,3 +162,10 @@ cython_debug/
 #.idea/
 .secrets.json
 .secrets.json
+/.idea/Discord-Scripts-New.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/newkey.pem
+/.idea/inspectionProfiles/profiles_settings.xml
+/.idea/inspectionProfiles/Project_Default.xml
+/.idea/vcs.xml
