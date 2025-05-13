@@ -20,6 +20,7 @@ def api_attendance():
     Parameters:
         status (str): 'start' or 'stop' for attendance
         group_id (str): ID of the group (e.g. 'g1')
+        code (str): Attendance code for verification
         api_key (str): Authentication key
         target_user_id (str, optional): Discord user ID to send DMs to. 
                                        If provided, the bot will attempt to send 
@@ -36,6 +37,7 @@ def api_attendance():
     # Get parameters
     status = request.args.get('status')
     group_id = request.args.get('group_id')
+    code = request.args.get('code')
     target_user_id = request.args.get('target_user_id')  # New parameter for DM target
 
     if not status:
@@ -46,17 +48,20 @@ def api_attendance():
 
     if not group_id:
         return jsonify({"status": "error", "message": "Group ID parameter is required"}), 400
+        
+    if not code:
+        return jsonify({"status": "error", "message": "Attendance code parameter is required"}), 400
 
-    # This is the use to whom the bot will report.
+    # This is the user to whom the bot will report
     if not target_user_id:
         return jsonify({"status": "error", "message": "Target User ID parameter is required"}), 400
 
     try:
-        # TODO: This adds an attribute to the mock_ctx, which is target_user_id
+        # This adds an attribute to the mock_ctx, which is target_user_id
         bc.mock_ctx.author.target_user_id = target_user_id
 
         async def execute_command():
-            await bot.attendance(bc.mock_ctx, status, group_id)
+            await bot.attendance(bc.mock_ctx, status, code, group_id)
             del bc.mock_ctx.author.target_user_id
 
         # Run the coroutine in the bot's event loop
@@ -66,10 +71,10 @@ def api_attendance():
 
         return jsonify({
             "status": "success",
-            "message": f"Attendance command executed: {status} attendance for group {group_id}"
+            "message": f"Attendance command executed: {status} attendance for group {group_id} with code {code}"
         })
     except Exception as e:
         return jsonify({
             "status": "error",
-            "message": f"Failed to start attendance: {str(e)}"
+            "message": f"Failed to process attendance: {str(e)}"
         }), 500
