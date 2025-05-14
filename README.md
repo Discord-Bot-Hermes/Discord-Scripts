@@ -158,6 +158,3 @@ Key dependencies include:
 
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-## Contributing
-(Optional: Add guidelines for contributing if this is an open project).
